@@ -1,0 +1,9 @@
+{
+  "name": "office-augmentor",
+  "displayName": "Office Augmentor",
+  "version": "1.0.0",
+  "description": "Knowledge-work co-pilot that keeps you in charge: inbox triage and reply drafts, meeting prep and notes-to-actions, document and report drafting, spreadsheet formulas and analysis, slide outlines, stakeholder updates, SOP writing, and polite-pushback/negotiation coaching. Drafts only; you review and send.",
+  "author": { "name": "Kyle" },
+  "license": "MIT",
+  "keywords": ["email", "meetings", "reports", "spreadsheets", "excel", "google-sheets", "slides", "sop", "negotiation", "productivity"]
+}

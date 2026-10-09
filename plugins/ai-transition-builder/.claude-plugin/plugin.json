@@ -1,0 +1,9 @@
+{
+  "name": "ai-transition-builder",
+  "displayName": "AI Transition Builder",
+  "version": "1.0.0",
+  "description": "Coach for people with some technical background moving into building with AI: prompt engineering, agentic workflow design, LLM API integration, RAG basics, evals, shipping a prototype, a personal learning roadmap, reviewing AI-generated code, and LLM app security. Teaches by having you build.",
+  "author": { "name": "Kyle" },
+  "license": "MIT",
+  "keywords": ["llm", "prompt-engineering", "agents", "rag", "evals", "ai-security", "prototyping", "career-transition", "code-review"]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "augmentor-packs",
+  "description": "Augmentor plugins for Claude Code: packs that coach, scaffold, check, and accelerate your own work instead of replacing it.",
+  "owner": {
+    "name": "Kyle"
+  },
+  "plugins": [
+    {
+      "name": "student-augmentor",
+      "source": "./plugins/student-augmentor",
+      "description": "Academic-integrity-aware study coach: Socratic tutoring, syllabus-to-study-plan, flashcards and spaced repetition, essay coaching (never ghostwriting), source evaluation and citation checks, exam prep, level-adjusted explanations, and math/code step-checking.",
+      "version": "1.0.0",
+      "category": "education",
+      "keywords": [
+        "study",
+        "tutor",
+        "flashcards",
+        "spaced-repetition",
+        "essay",
+        "citations",
+        "exam-prep",
+        "academic-integrity"
+      ]
+    },
+    {
+      "name": "office-augmentor",
+      "source": "./plugins/office-augmentor",
+      "description": "Knowledge-work co-pilot: inbox triage and reply drafts, meeting prep and notes-to-actions, document/report drafting, spreadsheet formulas and analysis, slide outlines, stakeholder updates, SOPs, and polite-pushback/negotiation coaching. Drafts only; you send.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "email",
+        "meetings",
+        "reports",
+        "spreadsheets",
+        "slides",
+        "sop",
+        "negotiation",
+        "productivity"
+      ]
+    },
+    {
+      "name": "ai-transition-builder",
+      "source": "./plugins/ai-transition-builder",
+      "description": "For people with some technical background moving into building with AI: prompt engineering, agentic workflow design, LLM APIs, RAG, evals, shipping a prototype, a learning roadmap, reviewing AI-generated code, and LLM app security.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": [
+        "llm",
+        "prompt-engineering",
+        "agents",
+        "rag",
+        "evals",
+        "ai-security",
+        "prototyping",
+        "code-review"
+      ]
+    },
+    {
+      "name": "educator-augmentor",
+      "source": "./plugins/educator-augmentor",
+      "description": "Planning and feedback co-pilot for teachers: standards-aligned lesson and unit plans (you supply the standards), differentiation/UDL, rubrics, assessments, feedback suggestions on student work (you stay the grader), parent communication, and classroom AI policy.",
+      "version": "1.0.0",
+      "category": "education",
+      "keywords": [
+        "teaching",
+        "lesson-planning",
+        "udl",
+        "differentiation",
+        "rubrics",
+        "assessment",
+        "feedback",
+        "ai-policy"
+      ]
+    },
+    {
+      "name": "solo-founder-augmentor",
+      "source": "./plugins/solo-founder-augmentor",
+      "description": "Sparring partner for solo founders: positioning and offer, customer discovery scripts and synthesis, pricing, landing page copy, outreach drafts, weekly CEO review, runway math, SOPs/delegation, and a decision journal.",
+      "version": "1.0.0",
+      "category": "business",
+      "keywords": [
+        "startup",
+        "founder",
+        "positioning",
+        "customer-discovery",
+        "pricing",
+        "copywriting",
+        "outreach",
+        "runway"
+      ]
+    }
+  ]
+}
