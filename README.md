@@ -4,6 +4,8 @@ Five Claude Code plugins built on one idea: **augment the human, don't replace t
 
 Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 
+📖 **Documentation:** [docs/index.md](docs/index.md) — [installation](docs/installation.md) · [packs](docs/index.md#pack-comparison) · [guardrails](docs/guardrails.md) · [contributing](CONTRIBUTING.md) · [releasing](docs/releasing.md) · [roadmap](docs/roadmap.md) · [FAQ](docs/faq.md) · [changelog](CHANGELOG.md)
+
 | Plugin | For | Skills | Commands | Agents |
 |---|---|---|---|---|
 | [`student-augmentor`](plugins/student-augmentor) | Students (academic-integrity-aware) | 8 | 5 | 2 |
@@ -22,7 +24,7 @@ Inside Claude Code:
 # 1. Add the marketplace — a local path to this directory...
 /plugin marketplace add /path/to/claude-packs
 #    ...or, once the repo is hosted on GitHub:
-/plugin marketplace add <github-owner>/<repo>
+/plugin marketplace add Krosebrook/augmentor-packs   # not yet published
 
 # 2. Install any pack: <plugin-name>@<marketplace-name>
 /plugin install student-augmentor@augmentor-packs
@@ -51,7 +53,10 @@ claude-packs/
 │       ├── commands/*.md
 │       ├── agents/*.md
 │       └── README.md
+├── docs/                            # documentation
 ├── scripts/validate.py              # offline schema/frontmatter checks
+├── scripts/check_links.py           # relative-link checker
+├── CHANGELOG.md
 ├── LICENSE
 └── README.md
 ```
@@ -62,6 +67,7 @@ claude-packs/
 claude plugin validate .                       # marketplace + every plugin.json
 claude plugin validate ./plugins/<plugin>      # one plugin, including skills/agents/commands
 python3 scripts/validate.py                    # offline checks (no Claude Code needed)
+python3 scripts/check_links.py                 # relative Markdown links
 ```
 
 ## Design principles
