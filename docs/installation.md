@@ -2,7 +2,7 @@
 
 These commands match the Claude Code plugin docs ([Install and manage plugins](https://code.claude.com/docs/en/discover-plugins), checked 2026-10-10). If the docs and this page ever disagree, follow the docs.
 
-> **Status:** the GitHub repo `Krosebrook/augmentor-packs` has not been published yet. Until it is, use the [local path install](#local-path-install).
+> The marketplace is hosted at [`Krosebrook/augmentor-packs`](https://github.com/Krosebrook/augmentor-packs). You can also use a [local path install](#local-path-install).
 
 ## 1. Add the marketplace
 
@@ -12,7 +12,7 @@ In a Claude Code session:
 /plugin marketplace add Krosebrook/augmentor-packs
 ```
 
-To pin a release tag, append `#ref`, e.g. `/plugin marketplace add Krosebrook/augmentor-packs#v1.0.0`. On success, Claude Code prints `Successfully added marketplace: augmentor-packs`.
+To pin a release tag, append `#ref`, e.g. `/plugin marketplace add Krosebrook/augmentor-packs#v1.1.0`. On success, Claude Code prints `Successfully added marketplace: augmentor-packs`.
 
 From your shell: `claude plugin marketplace add Krosebrook/augmentor-packs`.
 
@@ -85,7 +85,7 @@ Inside a session, use `/plugin uninstall`, `/plugin disable`, or the **Installed
 
 | Symptom | Fix |
 |---|---|
-| `Krosebrook/augmentor-packs` can't be found or cloned | The repo isn't public yet. Use a local path. |
+| `Krosebrook/augmentor-packs` can't be found or cloned | Check network/GitHub access, or use a local path. |
 | A local path is treated as a GitHub repo | Prefix it with `./` or use an absolute path. |
 | `plugin not found` on install | Use the marketplace *name* after `@` (`augmentor-packs`), not the repo path. Run `/plugin marketplace list` to check. |
 | Commands don't appear after install | Run `/reload-plugins` (or `/reload-plugins --force`), or start a new session. |

@@ -1,6 +1,6 @@
 {
   "name": "augmentor-packs",
-  "description": "Augmentor plugins for Claude Code: packs that coach, scaffold, check, and accelerate your own work instead of replacing it.",
+  "description": "Augmentor plugins for Claude Code: packs that coach, scaffold, check, and accelerate your own work instead of replacing it, plus optional key-free MCP tool add-ons.",
   "owner": {
     "name": "Kyle"
   },
@@ -9,7 +9,7 @@
       "name": "student-augmentor",
       "source": "./plugins/student-augmentor",
       "description": "Academic-integrity-aware study coach: Socratic tutoring, syllabus-to-study-plan, flashcards and spaced repetition, essay coaching (never ghostwriting), source evaluation and citation checks, exam prep, level-adjusted explanations, and math/code step-checking.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "education",
       "keywords": [
         "study",
@@ -26,7 +26,7 @@
       "name": "office-augmentor",
       "source": "./plugins/office-augmentor",
       "description": "Knowledge-work co-pilot: inbox triage and reply drafts, meeting prep and notes-to-actions, document/report drafting, spreadsheet formulas and analysis, slide outlines, stakeholder updates, SOPs, and polite-pushback/negotiation coaching. Drafts only; you send.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "productivity",
       "keywords": [
         "email",
@@ -43,7 +43,7 @@
       "name": "ai-transition-builder",
       "source": "./plugins/ai-transition-builder",
       "description": "For people with some technical background moving into building with AI: prompt engineering, agentic workflow design, LLM APIs, RAG, evals, shipping a prototype, a learning roadmap, reviewing AI-generated code, and LLM app security.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "development",
       "keywords": [
         "llm",
@@ -60,7 +60,7 @@
       "name": "educator-augmentor",
       "source": "./plugins/educator-augmentor",
       "description": "Planning and feedback co-pilot for teachers: standards-aligned lesson and unit plans (you supply the standards), differentiation/UDL, rubrics, assessments, feedback suggestions on student work (you stay the grader), parent communication, and classroom AI policy.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "education",
       "keywords": [
         "teaching",
@@ -77,7 +77,7 @@
       "name": "solo-founder-augmentor",
       "source": "./plugins/solo-founder-augmentor",
       "description": "Sparring partner for solo founders: positioning and offer, customer discovery scripts and synthesis, pricing, landing page copy, outreach drafts, weekly CEO review, runway math, SOPs/delegation, and a decision journal.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "business",
       "keywords": [
         "startup",
@@ -88,6 +88,162 @@
         "copywriting",
         "outreach",
         "runway"
+      ]
+    },
+    {
+      "name": "healthcare-worker-augmentor",
+      "source": "./plugins/healthcare-worker-augmentor",
+      "description": "Communication and study co-pilot for nurses and allied health: SBAR/handoff structure, plain-language patient education, documentation clarity, drug-info question prep that defers to official references and the pharmacist, shift/burnout planning, and CE study. Not medical advice; never paste PHI.",
+      "version": "1.1.0",
+      "category": "health",
+      "keywords": [
+        "nursing",
+        "allied-health",
+        "sbar",
+        "handoff",
+        "patient-education",
+        "health-literacy",
+        "documentation",
+        "continuing-education"
+      ]
+    },
+    {
+      "name": "trades-augmentor",
+      "source": "./plugins/trades-augmentor",
+      "description": "Back-office and study co-pilot for electricians, plumbers, HVAC techs, and contractors: job scoping, quotes from your own rates, customer messages, code-lookup prep that defers to the adopted code and AHJ, safety checklists, invoicing, scheduling, and licensing exam study.",
+      "version": "1.1.0",
+      "category": "productivity",
+      "keywords": [
+        "trades",
+        "electrician",
+        "plumber",
+        "hvac",
+        "contractor",
+        "estimating",
+        "invoicing",
+        "licensing-exam"
+      ]
+    },
+    {
+      "name": "job-seeker-augmentor",
+      "source": "./plugins/job-seeker-augmentor",
+      "description": "Honest job-search coach: resume tailoring without fabrication, interview prep and mock interviews, STAR story bank, networking drafts you send, offer negotiation with your own data, an application tracker, and a skills-gap plan.",
+      "version": "1.1.0",
+      "category": "career",
+      "keywords": [
+        "job-search",
+        "resume",
+        "cover-letter",
+        "interview",
+        "star-method",
+        "networking",
+        "negotiation",
+        "career"
+      ]
+    },
+    {
+      "name": "creator-augmentor",
+      "source": "./plugins/creator-augmentor",
+      "description": "Creative sparring partner for creators: ideation, hooks and scripts in your voice, repurposing, editorial calendar, audience research from your exports, sponsorship pitches with your real metrics, analytics review, and a voice guide. Never posts.",
+      "version": "1.1.0",
+      "category": "creative",
+      "keywords": [
+        "content-creator",
+        "youtube",
+        "podcast",
+        "newsletter",
+        "scripts",
+        "hooks",
+        "editorial-calendar",
+        "sponsorship"
+      ]
+    },
+    {
+      "name": "parent-caregiver-augmentor",
+      "source": "./plugins/parent-caregiver-augmentor",
+      "description": "Co-pilot for parents and family caregivers: family logistics and meal planning, a homework coach that doesn't give answers, school and doctor message drafts, aging-parent appointment prep, a care log, benefits/legal question checklists that defer to professionals, and self-care.",
+      "version": "1.1.0",
+      "category": "lifestyle",
+      "keywords": [
+        "parenting",
+        "caregiving",
+        "family",
+        "meal-planning",
+        "homework",
+        "eldercare",
+        "appointments",
+        "self-care"
+      ]
+    },
+    {
+      "name": "tools-package-health",
+      "source": "./plugins/tools-package-health",
+      "description": "Optional MCP tool add-on: npm and PyPI package metadata, maintenance signals, and known vulnerabilities from OSV.dev, plus a one-shot health verdict. No API key. Runs a local zero-dependency Node.js stdio server.",
+      "version": "1.1.0",
+      "category": "tools",
+      "keywords": [
+        "npm",
+        "pypi",
+        "osv",
+        "security",
+        "dependencies",
+        "mcp"
+      ]
+    },
+    {
+      "name": "tools-github-releases",
+      "source": "./plugins/tools-github-releases",
+      "description": "Optional MCP tool add-on: list GitHub releases, read the latest release notes, and build a changelog between two tags via api.github.com. No key required; an optional GITHUB_TOKEN from your environment raises rate limits.",
+      "version": "1.1.0",
+      "category": "tools",
+      "keywords": [
+        "github",
+        "releases",
+        "changelog",
+        "mcp"
+      ]
+    },
+    {
+      "name": "tools-holidays-nager",
+      "source": "./plugins/tools-holidays-nager",
+      "description": "Optional MCP tool add-on: public holidays by country (Nager.Date) and business-day math (is it a working day, add N business days, count business days between dates). No API key.",
+      "version": "1.1.0",
+      "category": "tools",
+      "keywords": [
+        "holidays",
+        "calendar",
+        "business-days",
+        "mcp"
+      ]
+    },
+    {
+      "name": "tools-sec-edgar",
+      "source": "./plugins/tools-sec-edgar",
+      "description": "Optional MCP tool add-on: look up US public companies on SEC EDGAR — latest filings (10-K, 10-Q, 8-K), key annual financials, and XBRL concept history. No API key; sends a configurable User-Agent as SEC requires.",
+      "version": "1.1.0",
+      "category": "tools",
+      "keywords": [
+        "sec",
+        "edgar",
+        "filings",
+        "financials",
+        "xbrl",
+        "mcp"
+      ]
+    },
+    {
+      "name": "tools-domain-checks",
+      "source": "./plugins/tools-domain-checks",
+      "description": "Optional MCP tool add-on: DNS records via Cloudflare DNS-over-HTTPS, RDAP registration and expiry, and TLS certificate expiry for a domain. No API key.",
+      "version": "1.1.0",
+      "category": "tools",
+      "keywords": [
+        "dns",
+        "rdap",
+        "whois",
+        "ssl",
+        "tls",
+        "mcp"
       ]
     }
   ]

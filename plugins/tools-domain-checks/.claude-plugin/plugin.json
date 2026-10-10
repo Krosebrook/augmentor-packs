@@ -1,0 +1,18 @@
+{
+  "name": "tools-domain-checks",
+  "displayName": "Tools: Domain Checks",
+  "version": "1.1.0",
+  "description": "Optional MCP tool add-on: DNS records via Cloudflare DNS-over-HTTPS, RDAP registration and expiry, and TLS certificate expiry for a domain. No API key.",
+  "author": {
+    "name": "Kyle"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dns",
+    "rdap",
+    "whois",
+    "ssl",
+    "tls",
+    "mcp"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "sec-edgar": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server.mjs"
+      ],
+      "env": {
+        "SEC_USER_AGENT": "${user_config.sec_user_agent}"
+      }
+    }
+  }
+}

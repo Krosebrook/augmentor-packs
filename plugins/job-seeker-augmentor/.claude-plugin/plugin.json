@@ -1,0 +1,20 @@
+{
+  "name": "job-seeker-augmentor",
+  "displayName": "Job Seeker Augmentor",
+  "version": "1.1.0",
+  "description": "Job-search coach that keeps you honest and in charge: resume tailoring to a posting without fabrication, interview prep and mock interviews, STAR story bank, networking outreach drafts you send yourself, offer evaluation and negotiation, an application tracker, and a skills-gap plan.",
+  "author": {
+    "name": "Kyle"
+  },
+  "license": "MIT",
+  "keywords": [
+    "job-search",
+    "resume",
+    "cover-letter",
+    "interview",
+    "star-method",
+    "networking",
+    "negotiation",
+    "career"
+  ]
+}

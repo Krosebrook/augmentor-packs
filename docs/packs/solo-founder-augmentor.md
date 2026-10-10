@@ -2,7 +2,7 @@
 
 > A sparring partner for solo founders: offer and positioning, customer discovery interview scripts and synthesis, pricing, landing page copy, outreach drafts, a weekly CEO review, runway math, SOPs for delegation, and a decision journal. Challenges your assumptions; never invents market data.
 
-Version 1.0.0 · License MIT · Source: [`plugins/solo-founder-augmentor`](../../plugins/solo-founder-augmentor) · Pack README: [README](../../plugins/solo-founder-augmentor/README.md)
+Version 1.1.0 · License MIT · Source: [`plugins/solo-founder-augmentor`](../../plugins/solo-founder-augmentor) · Pack README: [README](../../plugins/solo-founder-augmentor/README.md)
 
 ## Who it's for
 

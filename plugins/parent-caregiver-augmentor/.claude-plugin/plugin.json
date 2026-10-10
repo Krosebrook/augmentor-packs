@@ -1,0 +1,20 @@
+{
+  "name": "parent-caregiver-augmentor",
+  "displayName": "Parent & Caregiver Augmentor",
+  "version": "1.1.0",
+  "description": "Organizing and coaching co-pilot for parents and family caregivers: family logistics and meal planning, a homework helper that coaches instead of answering, drafts for school and doctor communication, aging-parent caregiving (appointment prep, care log, benefits-and-questions checklists that defer to professionals), and caregiver self-care. You decide and send; it never gives medical, legal, or benefits rulings.",
+  "author": {
+    "name": "Kyle"
+  },
+  "license": "MIT",
+  "keywords": [
+    "parenting",
+    "caregiving",
+    "family",
+    "meal-planning",
+    "homework",
+    "eldercare",
+    "appointments",
+    "self-care"
+  ]
+}

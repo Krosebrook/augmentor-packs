@@ -109,7 +109,17 @@ if m:
             if ":" in str(fm.get("name", "")): err(f"{a}: agent name can't contain ':'")
             for k in ("permissionMode", "hooks", "mcpServers", "initialPrompt"):
                 if k in fm: warn(f"{a}: '{k}' is ignored for plugin agents")
-        if (pdir / ".mcp.json").exists() or "mcpServers" in pj: warn(f"{n}: declares MCP servers")
+        has_mcp = (pdir / ".mcp.json").exists() or "mcpServers" in pj
+        if has_mcp and not n.startswith("tools-"): err(f"{n}: augmentor packs must stay MCP-free (only tools-* plugins may declare MCP servers)")
+        if n.startswith("tools-"):
+            if not has_mcp: err(f"{n}: tools-* plugin declares no MCP server")
+            mj = load_json(pdir / ".mcp.json") if (pdir / ".mcp.json").exists() else {"mcpServers": pj.get("mcpServers", {})}
+            for sname, srv in (mj or {}).get("mcpServers", {}).items():
+                if any("${CLAUDE_PLUGIN_ROOT}" not in a for a in srv.get("args", []) if a.endswith(".mjs")): err(f"{n}/{sname}: script path must use ${{CLAUDE_PLUGIN_ROOT}}")
+                for ek, ev in srv.get("env", {}).items():
+                    if not str(ev).startswith("${"): err(f"{n}/{sname}: env {ek} must be a ${{...}} reference, never a literal value")
+                    for key in re.findall(r"\$\{user_config\.(\w+)\}", str(ev)):
+                        if key not in pj.get("userConfig", {}): err(f"{n}/{sname}: user_config.{key} not declared")
         if not (pdir / "README.md").exists(): warn(f"{n}: README.md missing")
 
 for w in warnings: print("WARN ", w)

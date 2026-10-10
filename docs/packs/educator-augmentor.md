@@ -2,7 +2,7 @@
 
 > Planning and feedback co-pilot for teachers who stay in charge: standards-aligned lesson and unit plans (you supply the standards), differentiation and UDL, rubrics, quizzes and assessments, feedback suggestions on student work (you remain the grader), parent communication drafts, and a classroom AI-use policy helper.
 
-Version 1.0.0 · License MIT · Source: [`plugins/educator-augmentor`](../../plugins/educator-augmentor) · Pack README: [README](../../plugins/educator-augmentor/README.md)
+Version 1.1.0 · License MIT · Source: [`plugins/educator-augmentor`](../../plugins/educator-augmentor) · Pack README: [README](../../plugins/educator-augmentor/README.md)
 
 ## Who it's for
 

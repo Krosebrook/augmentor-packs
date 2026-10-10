@@ -8,21 +8,27 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 2. **No invented facts.** Sources, standards, statistics, testimonials, and figures come from you. Gaps are marked, not filled in.
 3. **Drafts, not actions.** Nothing is sent, posted, or graded on your behalf.
 4. **Opinionated defaults, stated plainly**, and easy to override.
-5. **Not professional advice.** Legal, tax, HR, and medical questions go to qualified people.
+5. **Not professional advice.** Legal, tax, HR, medical, benefits, and code-compliance questions go to qualified people and authorities.
+6. **Privacy by default.** De-identify before pasting (no PHI, no full ID numbers); summarize personal data rather than repeating it.
 
 ### Placeholders used in the packs
 
 | Placeholder | Meaning | Where it appears |
 |---|---|---|
-| `[CHECK: …]` | A claim or detail you must confirm | office-augmentor |
-| `[DATA NEEDED]` | A number or fact is needed and you didn't supply it | office-augmentor (doc-report-drafter), educator-augmentor (assessment-builder) |
-| `[TESTIMONIAL NEEDED]` | Space for real social proof. Never fabricated. | solo-founder-augmentor (landing-page-copy) |
+| `[CHECK: …]` | A claim or detail you must confirm | office-augmentor, creator-augmentor |
+| `[DATA NEEDED]` | A number or fact is needed and you didn't supply it | office-augmentor (doc-report-drafter), educator-augmentor (assessment-builder), trades-augmentor (quotes), job-seeker-augmentor (resume metrics, market data), creator-augmentor (pitches, benchmarks) |
+| `[TESTIMONIAL NEEDED]` | Space for real social proof. Never fabricated. | solo-founder-augmentor (landing-page-copy), creator-augmentor (sponsorship-pitch) |
 | `[CONFIRM]`, `[verify]` | Something for you to verify before use | various skills |
+| `[verify: official reference / pharmacist]` | Clinical fact to check in an official reference or with the pharmacist | healthcare-worker-augmentor |
+| `[verify: adopted code edition / AHJ]` | Code requirement to confirm in your locally adopted code or with the inspector | trades-augmentor |
+| `[verify: official source / professional]` | Benefits, legal, or program detail that varies by place | parent-caregiver-augmentor |
+| `[PERSONALIZE: …]`, `[YOUR STORY: …]` | Personal detail only you can supply | job-seeker-augmentor, creator-augmentor |
 
 ### Structural safeguards
 
-- The packs have no MCP servers, hooks, or executables, so they can't send messages or call external services.
-- Most agents use only `Read, Grep, Glob`. The exceptions: `ai-code-reviewer` and `formula-auditor` also have `Bash`, and `practice-examiner` and `discovery-synthesizer` also have `Write`, so they can save their output files.
+- The augmentor packs have no MCP servers, hooks, or executables, so they can't send messages or call external services. `scripts/validate.py` fails if an augmentor pack declares an MCP server.
+- The optional `tools-*` plugins are the only plugins that run code. Each runs one local, zero-dependency Node.js MCP stdio server that makes read-only HTTPS requests to the public APIs listed in [tool add-ons](packs/tools.md). They have no write or send capabilities, no telemetry, and no committed credentials. `GITHUB_TOKEN` is read only from your environment, and `sec_user_agent` is stored in your Claude Code settings.
+- Most agents use only `Read, Grep, Glob`. The exceptions: `ai-code-reviewer`, `formula-auditor`, and `analytics-analyst` also have `Bash`, and `practice-examiner`, `discovery-synthesizer`, and `interview-debriefer` also have `Write`, so they can save their output files.
 
 ## Integrity rules per pack
 
@@ -54,8 +60,35 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 - Never sends or scrapes outreach, and never invents personalization.
 - Runway math uses only your numbers. Not tax, legal, or investment advice.
 
+### healthcare-worker-augmentor
+- Not medical advice, diagnosis, or orders. Clinician judgment, facility policy, prescribers, and pharmacists come first.
+- No PHI. Every skill reminds you to de-identify and stops if identifiers appear.
+- Never states doses, interactions, compatibility, or lab ranges from memory. Drug questions become lookup checklists and pharmacist questions.
+- Self-harm mentions get crisis resources (e.g. 988 in the US) before anything else.
+
+### trades-augmentor
+- Quotes and invoices use only your rates and prices, with the math shown.
+- Never quotes code sections or values as fact. The adopted code and the AHJ govern.
+- Safety checklists supplement your company program, OSHA requirements, and manufacturer instructions.
+- Not legal or tax advice (liens, contracts, sales tax).
+
+### job-seeker-augmentor
+- Never fabricates experience, titles, dates, metrics, or credentials. `resume-truth-checker` compares output to your source history.
+- Never sends outreach or applications, and never invents shared connections.
+- Salary data comes from sources you gather. Not legal advice on contracts or visas.
+
+### creator-augmentor
+- Never posts or messages brands. Pitches use only your real metrics; no invented testimonials or partners.
+- Analytics conclusions come only from your exports, with sample sizes; no invented benchmarks.
+- Flags sponsored-content disclosure for you to check. Won't clone another creator's identity.
+
+### parent-caregiver-augmentor
+- The homework coach gives hints and questions, never final answers to assigned work.
+- Not medical, legal, financial, or benefits advice. It prepares questions for professionals and never says someone qualifies for a program.
+- School and doctor messages are drafts you send. Care logs stay in files you control.
+
 ## Reporting a guardrail failure
 
-If a pack crosses one of these lines (e.g. writes a whole graded essay, or makes up a citation), open an issue with the prompt and the output once the repo is public. Guardrail failures are treated as bugs.
+If a pack crosses one of these lines (e.g. writes a whole graded essay, or makes up a citation), open an issue at [Krosebrook/augmentor-packs](https://github.com/Krosebrook/augmentor-packs/issues) with the prompt and the output. Guardrail failures are treated as bugs.
 
 [← Back to docs index](index.md)

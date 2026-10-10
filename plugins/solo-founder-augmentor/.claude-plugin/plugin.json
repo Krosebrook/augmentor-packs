@@ -1,9 +1,22 @@
 {
   "name": "solo-founder-augmentor",
   "displayName": "Solo Founder Augmentor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A sparring partner for solo founders: offer and positioning, customer discovery interview scripts and synthesis, pricing, landing page copy, outreach drafts, a weekly CEO review, runway math, SOPs for delegation, and a decision journal. Challenges your assumptions; never invents market data.",
-  "author": { "name": "Kyle" },
+  "author": {
+    "name": "Kyle"
+  },
   "license": "MIT",
-  "keywords": ["startup", "founder", "positioning", "customer-discovery", "pricing", "copywriting", "outreach", "runway", "delegation", "decision-journal"]
+  "keywords": [
+    "startup",
+    "founder",
+    "positioning",
+    "customer-discovery",
+    "pricing",
+    "copywriting",
+    "outreach",
+    "runway",
+    "delegation",
+    "decision-journal"
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "domain-checks": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server.mjs"
+      ]
+    }
+  }
+}
