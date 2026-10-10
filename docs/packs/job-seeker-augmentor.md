@@ -2,7 +2,7 @@
 
 > Job-search coach that keeps you honest and in charge: resume tailoring to a posting without fabrication, interview prep and mock interviews, STAR story bank, networking outreach drafts you send yourself, offer evaluation and negotiation, an application tracker, and a skills-gap plan.
 
-Version 1.1.0 · License MIT · Source: [`plugins/job-seeker-augmentor`](../../plugins/job-seeker-augmentor) · Pack README: [README](../../plugins/job-seeker-augmentor/README.md)
+Version 1.2.0 · License MIT · Source: [`plugins/job-seeker-augmentor`](../../plugins/job-seeker-augmentor) · Pack README: [README](../../plugins/job-seeker-augmentor/README.md)
 
 ## Who it's for
 

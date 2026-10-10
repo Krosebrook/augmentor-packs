@@ -1,6 +1,6 @@
 # Augmentor Packs documentation
 
-**Augmentor Packs** (`augmentor-packs`) is a Claude Code plugin marketplace with ten augmentor packs plus five optional MCP tool add-ons. They're built so you can do more than you could on your own, because they coach, check, and speed up your work. They don't do the work for you.
+**Augmentor Packs** (`augmentor-packs`) is a Claude Code plugin marketplace with thirteen augmentor packs plus five optional MCP tool add-ons. They're built so you can do more than you could on your own, because they coach, check, and speed up your work. They don't do the work for you.
 
 Owner: Kyle · License: MIT · Repository: `Krosebrook/augmentor-packs` ([GitHub](https://github.com/Krosebrook/augmentor-packs))
 
@@ -29,8 +29,11 @@ Full details: [guardrails](guardrails.md).
 | [job-seeker-augmentor](packs/job-seeker-augmentor.md) | Job seekers and career changers | 8 | 4 | 2 | career |
 | [creator-augmentor](packs/creator-augmentor.md) | Content creators | 8 | 4 | 2 | creative |
 | [parent-caregiver-augmentor](packs/parent-caregiver-augmentor.md) | Parents and family caregivers | 9 | 5 | 2 | lifestyle |
+| [designer-augmentor](packs/designer-augmentor.md) | Product, UX, and UI designers | 7 | 4 | 2 | design |
+| [engineer-augmentor](packs/engineer-augmentor.md) | Software engineers | 8 | 4 | 2 | development |
+| [consultant-augmentor](packs/consultant-augmentor.md) | Consultants, solutions architects, enablement leads | 7 | 4 | 2 | business |
 
-Every plugin is at version 1.1.0. No augmentor pack includes MCP servers, hooks, executables, or API keys. Every pack is only skills, commands, and subagents.
+Every plugin is at version 1.2.0. No augmentor pack includes MCP servers, hooks, executables, or API keys. Every pack is only skills, commands, and subagents.
 
 ## Optional tool add-ons
 

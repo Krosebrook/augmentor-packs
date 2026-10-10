@@ -4,6 +4,16 @@ All notable changes to this marketplace are documented here. Format: [Keep a Cha
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-10
+### Added
+- **designer-augmentor 1.2.0:** 7 skills, 4 commands, 2 agents. Covers design briefs before visuals, heuristic UX review, WCAG 2.2 AA checks, design-token advice, usability test planning, generic-AI-look detection, and motion/interaction review.
+- **engineer-augmentor 1.2.0:** 8 skills, 4 commands, 2 agents. Covers hypothesis-driven debugging, failing-test triage, logic audits, review-feedback planning, adversarial Bash/PowerShell review, pre-build specs, task decomposition, and client-side key exposure checks.
+- **consultant-augmentor 1.2.0:** 7 skills, 4 commands, 2 agents. Covers use-case discovery and scoring, engagement scoping, transparent ROI models, workshop design, survey design, audience-tiered rewrites, and adversarial recommendation review.
+- New pack docs: `docs/packs/designer-augmentor.md`, `engineer-augmentor.md`, `consultant-augmentor.md`.
+### Changed
+- All plugins bumped to 1.2.0 (existing packs have no behavior changes; the bump keeps one marketplace version).
+- Docs updated for 18 plugins: index, README, guardrails (new integrity rules and placeholders), FAQ, roadmap.
+
 ## [1.1.0] - 2026-10-10
 ### Added
 - **healthcare-worker-augmentor 1.1.0:** 7 skills, 4 commands, 2 agents. Covers SBAR/handoff, plain-language patient education, documentation clarity, drug-info question prep (defers to official references and the pharmacist), shift/burnout planning, CE study, and difficult conversations. Not medical advice; no PHI.

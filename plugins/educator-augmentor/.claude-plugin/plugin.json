@@ -1,7 +1,7 @@
 {
   "name": "educator-augmentor",
   "displayName": "Educator Augmentor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Planning and feedback co-pilot for teachers who stay in charge: standards-aligned lesson and unit plans (you supply the standards), differentiation and UDL, rubrics, quizzes and assessments, feedback suggestions on student work (you remain the grader), parent communication drafts, and a classroom AI-use policy helper.",
   "author": {
     "name": "Kyle"

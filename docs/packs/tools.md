@@ -2,7 +2,7 @@
 
 These five plugins are **optional** and separate from the augmentor packs. Each one runs a small local Node.js MCP server over stdio (zero npm dependencies, Node.js 18+) and calls a public, key-free API. They give Claude live data. The augmentor packs never require them and stay MCP-free.
 
-Version 1.1.0 · License MIT
+Version 1.2.0 · License MIT
 
 ## Install
 

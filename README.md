@@ -1,6 +1,6 @@
 # Augmentor Packs — a Claude Code plugin marketplace
 
-Ten Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
+Thirteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
 
 Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 
@@ -18,6 +18,9 @@ Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 | [`job-seeker-augmentor`](plugins/job-seeker-augmentor) | Job seekers and career changers | 8 | 4 | 2 |
 | [`creator-augmentor`](plugins/creator-augmentor) | Content creators | 8 | 4 | 2 |
 | [`parent-caregiver-augmentor`](plugins/parent-caregiver-augmentor) | Parents and family caregivers | 9 | 5 | 2 |
+| [`designer-augmentor`](plugins/designer-augmentor) | Product, UX, and UI designers | 7 | 4 | 2 |
+| [`engineer-augmentor`](plugins/engineer-augmentor) | Software engineers | 8 | 4 | 2 |
+| [`consultant-augmentor`](plugins/consultant-augmentor) | Consultants, solutions architects, enablement leads | 7 | 4 | 2 |
 
 No MCP servers, hooks, executables, or API keys in any augmentor pack — every pack is pure skills, commands, and subagents.
 

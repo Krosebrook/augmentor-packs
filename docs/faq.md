@@ -27,6 +27,15 @@ No. It only uses experience you provide, marks missing metrics `[DATA NEEDED]`, 
 **Will parent-caregiver-augmentor do my kid's homework?**
 No. `homework-coach` gives questions, hints, and parallel examples, and checks your child's own work.
 
+**Will designer-augmentor design my screens for me?**
+No. It writes briefs with you, critiques designs, checks accessibility, and proposes token structures. Taste and final decisions are yours, and its accessibility checks are review aids, not a conformance certificate.
+
+**Will engineer-augmentor change my code?**
+It explains, audits, and plans; you make and review the changes. Its agents are read-only, it never deletes or weakens tests to go green, and it never asks you to paste real secrets.
+
+**Will consultant-augmentor make up numbers for my business case?**
+No. ROI models, scopes, and surveys use only the inputs you supply, with every formula shown. Missing figures are `[DATA NEEDED]` and unsourced benchmarks are `[CHECK: source]`.
+
 **Why does output contain `[DATA NEEDED]` or `[TESTIMONIAL NEEDED]`?**
 The packs don't invent facts, figures, or social proof. Fill in each placeholder with real information, or delete it.
 

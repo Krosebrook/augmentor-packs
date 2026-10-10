@@ -34,6 +34,10 @@ Notes:
 - [ ] Dogfood each new pack on real tasks; log trigger misses and guardrail slips. Healthcare and parent-caregiver guardrail failures are release blockers.
 - [ ] Consider review by a practicing nurse and a licensed tradesperson for the healthcare and trades packs.
 
+## v1.2.0: Designer, engineer, and consultant packs (done)
+- [x] designer-augmentor, engineer-augmentor, consultant-augmentor (adapted from the owner's own generic skills, scrubbed of brand and client details).
+- [ ] Dogfood each on real tasks; log trigger misses and guardrail slips.
+
 ## Week 2: Listing and outreach
 - [ ] Write listing copy (marketplace descriptions, repo description, short pitch). It must be accurate, with no invented stats or testimonials.
 - [ ] Record demo GIFs of one core workflow per pack.

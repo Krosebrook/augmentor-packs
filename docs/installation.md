@@ -12,7 +12,7 @@ In a Claude Code session:
 /plugin marketplace add Krosebrook/augmentor-packs
 ```
 
-To pin a release tag, append `#ref`, e.g. `/plugin marketplace add Krosebrook/augmentor-packs#v1.1.0`. On success, Claude Code prints `Successfully added marketplace: augmentor-packs`.
+To pin a release tag, append `#ref`, e.g. `/plugin marketplace add Krosebrook/augmentor-packs#v1.2.0`. On success, Claude Code prints `Successfully added marketplace: augmentor-packs`.
 
 From your shell: `claude plugin marketplace add Krosebrook/augmentor-packs`.
 

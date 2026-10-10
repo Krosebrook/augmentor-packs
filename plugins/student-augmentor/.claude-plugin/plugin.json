@@ -1,7 +1,7 @@
 {
   "name": "student-augmentor",
   "displayName": "Student Augmentor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Academic-integrity-aware study coach: Socratic tutoring, syllabus-to-study-plan, active recall and spaced repetition, essay coaching (never ghostwriting), source evaluation and citation checks, exam prep, level-adjusted explanations, and step-by-step math/code checking.",
   "author": {
     "name": "Kyle"
