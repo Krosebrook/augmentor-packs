@@ -2,7 +2,9 @@
 
 > Back-office and study co-pilot for electricians, plumbers, HVAC techs, and contractors: job scoping checklists, quote/estimate builder from your own rates, customer communication drafts, code-lookup question prep that defers to the adopted code and AHJ, job safety checklists, invoicing, scheduling, and licensing exam study. Your numbers, your license, your call.
 
-Version 1.2.0 · License MIT · Source: [`plugins/trades-augmentor`](../../plugins/trades-augmentor) · Pack README: [README](../../plugins/trades-augmentor/README.md)
+Version 1.3.0 · License MIT · Source: [`plugins/trades-augmentor`](../../plugins/trades-augmentor) · Pack README: [README](../../plugins/trades-augmentor/README.md)
+
+**Level: Beginner** ([what levels mean](../index.md#levels)). Quotes, scheduling, and customer messages in plain language.
 
 ## Who it's for
 

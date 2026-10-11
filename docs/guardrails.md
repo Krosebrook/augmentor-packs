@@ -15,7 +15,7 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 
 | Placeholder | Meaning | Where it appears |
 |---|---|---|
-| `[CHECK: …]` | A claim or detail you must confirm | office-augmentor, creator-augmentor |
+| `[CHECK: …]` | A claim or detail you must confirm | office-augmentor, creator-augmentor, ai-beginner-augmentor |
 | `[DATA NEEDED]` | A number or fact is needed and you didn't supply it | consultant-augmentor (ROI, scoping, surveys), designer-augmentor (briefs, contrast values), office-augmentor (doc-report-drafter), educator-augmentor (assessment-builder), trades-augmentor (quotes), job-seeker-augmentor (resume metrics, market data), creator-augmentor (pitches, benchmarks) |
 | `[TESTIMONIAL NEEDED]` | Space for real social proof. Never fabricated. | solo-founder-augmentor (landing-page-copy), creator-augmentor (sponsorship-pitch) |
 | `[CONFIRM]`, `[verify]` | Something for you to verify before use | various skills |
@@ -33,6 +33,13 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 - Most agents use only `Read, Grep, Glob`. The exceptions: `ai-code-reviewer`, `formula-auditor`, `analytics-analyst`, `logic-auditor`, `script-reviewer`, and `assumption-auditor` also have `Bash` (read-only inspection, linters, and recalculation; `script-reviewer` never runs the script under review), and `practice-examiner`, `discovery-synthesizer`, and `interview-debriefer` also have `Write`, so they can save their output files.
 
 ## Integrity rules per pack
+
+### ai-beginner-augmentor
+- Coaches, never replaces: the person attempts first (questions, exercises, steps); it gives hints and feedback.
+- Never declares a claim true from memory. Checkable claims are listed with the kind of source to check and marked `[CHECK: …]`.
+- Stops when passwords, ID numbers, financial details, health records, or other people's private information appear, and doesn't repeat them.
+- Never claims abilities it doesn't have (sending, browsing accounts, remembering forever). Agents are read-only.
+- Not legal, medical, or financial advice.
 
 ### student-augmentor
 - Never ghostwrites graded work. Essay help is coaching and feedback on *your* draft.

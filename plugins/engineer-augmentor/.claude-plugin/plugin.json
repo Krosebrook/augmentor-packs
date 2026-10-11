@@ -1,7 +1,7 @@
 {
   "name": "engineer-augmentor",
   "displayName": "Engineer Augmentor",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Engineering co-pilot that keeps you the author: hypothesis-driven debugging coach, failing-test triage, logic audits before bugs ship, review-feedback planning, adversarial shell/PowerShell script review, pre-build specs, task decomposition, and client-side key exposure checks. Explains and checks; you change the code.",
   "author": {
     "name": "Kyle"

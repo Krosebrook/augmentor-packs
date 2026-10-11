@@ -12,13 +12,14 @@ In a Claude Code session:
 /plugin marketplace add Krosebrook/augmentor-packs
 ```
 
-To pin a release tag, append `#ref`, e.g. `/plugin marketplace add Krosebrook/augmentor-packs#v1.2.0`. On success, Claude Code prints `Successfully added marketplace: augmentor-packs`.
+To pin a release tag, append `#ref`, e.g. `/plugin marketplace add Krosebrook/augmentor-packs#v1.3.0`. On success, Claude Code prints `Successfully added marketplace: augmentor-packs`.
 
 From your shell: `claude plugin marketplace add Krosebrook/augmentor-packs`.
 
 ## 2. Install a pack
 
 ```
+/plugin install ai-beginner-augmentor@augmentor-packs   # new to AI? start here
 /plugin install student-augmentor@augmentor-packs
 /plugin install office-augmentor@augmentor-packs
 /plugin install ai-transition-builder@augmentor-packs

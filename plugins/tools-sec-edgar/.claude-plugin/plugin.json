@@ -1,8 +1,8 @@
 {
   "name": "tools-sec-edgar",
   "displayName": "Tools: SEC EDGAR",
-  "version": "1.2.0",
-  "description": "Optional MCP tool add-on: look up US public companies on SEC EDGAR — latest filings (10-K, 10-Q, 8-K), key annual financials, and XBRL concept history. No API key; sends a configurable User-Agent as SEC requires.",
+  "version": "1.3.0",
+  "description": "Optional MCP tool add-on: look up US public companies on SEC EDGAR \u2014 latest filings (10-K, 10-Q, 8-K), key annual financials, and XBRL concept history. No API key; sends a configurable User-Agent as SEC requires.",
   "author": {
     "name": "Kyle"
   },

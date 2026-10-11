@@ -2,7 +2,9 @@
 
 > Consulting and proposal co-pilot for advisors, solutions architects, and internal enablement leads: AI use-case discovery and scoring, engagement scoping and phasing, transparent ROI models, workshop design, survey design, audience-tiered reporting, and adversarial review of recommendations. Structures and stress-tests; you own the advice and the numbers.
 
-Version 1.2.0 · License MIT · Source: [`plugins/consultant-augmentor`](../../plugins/consultant-augmentor) · Pack README: [README](../../plugins/consultant-augmentor/README.md)
+Version 1.3.0 · License MIT · Source: [`plugins/consultant-augmentor`](../../plugins/consultant-augmentor) · Pack README: [README](../../plugins/consultant-augmentor/README.md)
+
+**Level: Intermediate** ([what levels mean](../index.md#levels)). Assumes consulting practice (scoping, ROI models, workshops) and comfort supplying your own data.
 
 ## Who it's for
 

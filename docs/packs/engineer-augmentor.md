@@ -2,7 +2,9 @@
 
 > Engineering co-pilot that keeps you the author: hypothesis-driven debugging coach, failing-test triage, logic audits before bugs ship, review-feedback planning, adversarial shell/PowerShell script review, pre-build specs, task decomposition, and client-side key exposure checks. Explains and checks; you change the code.
 
-Version 1.2.0 · License MIT · Source: [`plugins/engineer-augmentor`](../../plugins/engineer-augmentor) · Pack README: [README](../../plugins/engineer-augmentor/README.md)
+Version 1.3.0 · License MIT · Source: [`plugins/engineer-augmentor`](../../plugins/engineer-augmentor) · Pack README: [README](../../plugins/engineer-augmentor/README.md)
+
+**Level: Advanced** ([what levels mean](../index.md#levels)). For working software engineers: debugging, tests, scripts, and code review in a repo.
 
 ## Who it's for
 

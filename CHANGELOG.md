@@ -4,6 +4,17 @@ All notable changes to this marketplace are documented here. Format: [Keep a Cha
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-10
+### Added
+- **ai-beginner-augmentor 1.3.0:** 8 skills, 5 commands, 2 agents for people brand new to AI and Claude. Covers a first-week tour, asking clear questions, checking answers and spotting hallucinations, privacy basics, picking a pack, breaking messy tasks into steps, practice exercises with feedback, and a plain-words glossary. Commands: `start`, `ask-better`, `check-this`, `which-pack`, `practice`. Agents (read-only): `friendly-explainer`, `answer-checker`.
+- Beginner docs in `docs/beginners/`: getting started (what Claude Code, plugins, and marketplaces are; installing Claude Code; adding this marketplace; installing a first pack; checked against code.claude.com on 2026-10-10), first 10 minutes (guided first session per audience), glossary, and troubleshooting for beginners.
+- "New to AI? Start here" links at the top of the README and docs index.
+- Beginner / Intermediate / Advanced **Level** column on the README and docs index pack tables, a Levels explanation, and a Level line on every pack page (including tool add-ons).
+- New pack doc: `docs/packs/ai-beginner-augmentor.md`.
+### Changed
+- All plugins bumped to 1.3.0 (existing packs have no behavior changes; the bump keeps one marketplace version).
+- Guardrails, FAQ, roadmap, and installation docs updated for the beginner track; docs index now links the designer, engineer, and consultant pack pages.
+
 ## [1.2.0] - 2026-10-10
 ### Added
 - **designer-augmentor 1.2.0:** 7 skills, 4 commands, 2 agents. Covers design briefs before visuals, heuristic UX review, WCAG 2.2 AA checks, design-token advice, usability test planning, generic-AI-look detection, and motion/interaction review.

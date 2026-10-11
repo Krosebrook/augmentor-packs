@@ -2,7 +2,9 @@
 
 > Organizing and coaching co-pilot for parents and family caregivers: family logistics and meal planning, a homework helper that coaches instead of answering, drafts for school and doctor communication, aging-parent caregiving (appointment prep, care log, benefits-and-questions checklists that defer to professionals), and caregiver self-care. You decide and send; it never gives medical, legal, or benefits rulings.
 
-Version 1.2.0 · License MIT · Source: [`plugins/parent-caregiver-augmentor`](../../plugins/parent-caregiver-augmentor) · Pack README: [README](../../plugins/parent-caregiver-augmentor/README.md)
+Version 1.3.0 · License MIT · Source: [`plugins/parent-caregiver-augmentor`](../../plugins/parent-caregiver-augmentor) · Pack README: [README](../../plugins/parent-caregiver-augmentor/README.md)
+
+**Level: Beginner** ([what levels mean](../index.md#levels)). Family and caregiving tasks in everyday words.
 
 ## Who it's for
 

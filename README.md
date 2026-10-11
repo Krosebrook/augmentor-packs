@@ -1,26 +1,31 @@
 # Augmentor Packs — a Claude Code plugin marketplace
 
-Thirteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
+Fourteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
 
 Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 
+> **🌱 New to AI? [Start here](docs/beginners/getting-started.md)** — install Claude Code and your first pack step by step, then try [`ai-beginner-augmentor`](plugins/ai-beginner-augmentor). Also: [first 10 minutes](docs/beginners/first-10-minutes.md) · [glossary](docs/beginners/glossary.md) · [troubleshooting](docs/beginners/troubleshooting-for-beginners.md).
+
 📖 **Documentation:** [docs/index.md](docs/index.md) — [installation](docs/installation.md) · [packs](docs/index.md#pack-comparison) · [guardrails](docs/guardrails.md) · [contributing](CONTRIBUTING.md) · [releasing](docs/releasing.md) · [roadmap](docs/roadmap.md) · [FAQ](docs/faq.md) · [changelog](CHANGELOG.md)
 
-| Plugin | For | Skills | Commands | Agents |
-|---|---|---|---|---|
-| [`student-augmentor`](plugins/student-augmentor) | Students (academic-integrity-aware) | 8 | 5 | 2 |
-| [`office-augmentor`](plugins/office-augmentor) | Knowledge workers | 8 | 5 | 2 |
-| [`ai-transition-builder`](plugins/ai-transition-builder) | Technical folks moving into building with AI | 9 | 5 | 2 |
-| [`educator-augmentor`](plugins/educator-augmentor) | Teachers (you stay the grader) | 8 | 5 | 2 |
-| [`solo-founder-augmentor`](plugins/solo-founder-augmentor) | Solo founders | 9 | 5 | 2 |
-| [`healthcare-worker-augmentor`](plugins/healthcare-worker-augmentor) | Nurses and allied health (not medical advice) | 7 | 4 | 2 |
-| [`trades-augmentor`](plugins/trades-augmentor) | Electricians, plumbers, HVAC techs, contractors | 8 | 5 | 2 |
-| [`job-seeker-augmentor`](plugins/job-seeker-augmentor) | Job seekers and career changers | 8 | 4 | 2 |
-| [`creator-augmentor`](plugins/creator-augmentor) | Content creators | 8 | 4 | 2 |
-| [`parent-caregiver-augmentor`](plugins/parent-caregiver-augmentor) | Parents and family caregivers | 9 | 5 | 2 |
-| [`designer-augmentor`](plugins/designer-augmentor) | Product, UX, and UI designers | 7 | 4 | 2 |
-| [`engineer-augmentor`](plugins/engineer-augmentor) | Software engineers | 8 | 4 | 2 |
-| [`consultant-augmentor`](plugins/consultant-augmentor) | Consultants, solutions architects, enablement leads | 7 | 4 | 2 |
+| Plugin | For | Level | Skills | Commands | Agents |
+|---|---|---|---|---|---|
+| [`ai-beginner-augmentor`](plugins/ai-beginner-augmentor) | Anyone brand new to AI and Claude | Beginner | 8 | 5 | 2 |
+| [`student-augmentor`](plugins/student-augmentor) | Students (academic-integrity-aware) | Beginner | 8 | 5 | 2 |
+| [`office-augmentor`](plugins/office-augmentor) | Knowledge workers | Beginner | 8 | 5 | 2 |
+| [`ai-transition-builder`](plugins/ai-transition-builder) | Technical folks moving into building with AI | Advanced | 9 | 5 | 2 |
+| [`educator-augmentor`](plugins/educator-augmentor) | Teachers (you stay the grader) | Beginner | 8 | 5 | 2 |
+| [`solo-founder-augmentor`](plugins/solo-founder-augmentor) | Solo founders | Intermediate | 9 | 5 | 2 |
+| [`healthcare-worker-augmentor`](plugins/healthcare-worker-augmentor) | Nurses and allied health (not medical advice) | Beginner | 7 | 4 | 2 |
+| [`trades-augmentor`](plugins/trades-augmentor) | Electricians, plumbers, HVAC techs, contractors | Beginner | 8 | 5 | 2 |
+| [`job-seeker-augmentor`](plugins/job-seeker-augmentor) | Job seekers and career changers | Beginner | 8 | 4 | 2 |
+| [`creator-augmentor`](plugins/creator-augmentor) | Content creators | Beginner | 8 | 4 | 2 |
+| [`parent-caregiver-augmentor`](plugins/parent-caregiver-augmentor) | Parents and family caregivers | Beginner | 9 | 5 | 2 |
+| [`designer-augmentor`](plugins/designer-augmentor) | Product, UX, and UI designers | Intermediate | 7 | 4 | 2 |
+| [`engineer-augmentor`](plugins/engineer-augmentor) | Software engineers | Advanced | 8 | 4 | 2 |
+| [`consultant-augmentor`](plugins/consultant-augmentor) | Consultants, solutions architects, enablement leads | Intermediate | 7 | 4 | 2 |
+
+**Level** = how much tech or AI experience a pack assumes (Beginner / Intermediate / Advanced); see [levels](docs/index.md#levels).
 
 No MCP servers, hooks, executables, or API keys in any augmentor pack — every pack is pure skills, commands, and subagents.
 
@@ -46,6 +51,7 @@ Inside Claude Code:
 /plugin marketplace add Krosebrook/augmentor-packs
 
 # 2. Install any pack: <plugin-name>@<marketplace-name>
+/plugin install ai-beginner-augmentor@augmentor-packs   # new to AI? start here
 /plugin install student-augmentor@augmentor-packs
 /plugin install office-augmentor@augmentor-packs
 /plugin install ai-transition-builder@augmentor-packs

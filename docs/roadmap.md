@@ -38,6 +38,13 @@ Notes:
 - [x] designer-augmentor, engineer-augmentor, consultant-augmentor (adapted from the owner's own generic skills, scrubbed of brand and client details).
 - [ ] Dogfood each on real tasks; log trigger misses and guardrail slips.
 
+## v1.3.0: Beginner track (done)
+- [x] ai-beginner-augmentor (8 skills, 5 commands, 2 agents) for people brand new to AI.
+- [x] Beginner docs in `docs/beginners/` (getting started, first 10 minutes, glossary, troubleshooting), checked against code.claude.com.
+- [x] Beginner / Intermediate / Advanced level on the docs index and every pack page.
+- [ ] Test the getting-started guide with a few true beginners (different backgrounds) and fix every place they got stuck.
+- [ ] Re-check install steps against code.claude.com each release; the UI changes often.
+
 ## Week 2: Listing and outreach
 - [ ] Write listing copy (marketplace descriptions, repo description, short pitch). It must be accurate, with no invented stats or testimonials.
 - [ ] Record demo GIFs of one core workflow per pack.

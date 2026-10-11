@@ -3,6 +3,15 @@
 **What's an "augmentor"?**
 A plugin that coaches, checks, and speeds up *your* work instead of doing it for you. See [guardrails](guardrails.md).
 
+**I've never used AI. Where do I start?**
+Read [getting started](beginners/getting-started.md), which walks through installing Claude Code, adding this marketplace, and installing `ai-beginner-augmentor`. Then follow [your first 10 minutes](beginners/first-10-minutes.md). Confusing word? See the [glossary](beginners/glossary.md).
+
+**What do Beginner / Intermediate / Advanced mean?**
+How much tech or AI experience a pack assumes, not how smart you are. Beginner packs need no tech skills. See [levels](index.md#levels).
+
+**Will ai-beginner-augmentor just do things for me?**
+No. It coaches: you try first, and it gives hints and feedback. It never sends messages, and it marks anything you should verify `[CHECK: …]` instead of guessing.
+
 **Will student-augmentor write my essay?**
 No. It coaches your thesis, outline, and draft and gives feedback, but it doesn't ghostwrite graded work. Use `/student-augmentor:integrity-check` to see how a planned use fits your course's AI policy.
 

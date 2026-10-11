@@ -2,7 +2,9 @@
 
 > Coach for people with some technical background moving into building with AI: prompt engineering, agentic workflow design, LLM API integration, RAG basics, evals, shipping a prototype, a personal learning roadmap, reviewing AI-generated code, and LLM app security. Teaches by having you build.
 
-Version 1.2.0 · License MIT · Source: [`plugins/ai-transition-builder`](../../plugins/ai-transition-builder) · Pack README: [README](../../plugins/ai-transition-builder/README.md)
+Version 1.3.0 · License MIT · Source: [`plugins/ai-transition-builder`](../../plugins/ai-transition-builder) · Pack README: [README](../../plugins/ai-transition-builder/README.md)
+
+**Level: Advanced** ([what levels mean](../index.md#levels)). Assumes some coding background: APIs, RAG, evals, and reviewing code.
 
 ## Who it's for
 
