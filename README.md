@@ -1,6 +1,6 @@
 # Augmentor Packs — a Claude Code plugin marketplace
 
-Fourteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
+Fifteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
 
 Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 
@@ -11,6 +11,7 @@ Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 | Plugin | For | Level | Skills | Commands | Agents |
 |---|---|---|---|---|---|
 | [`ai-beginner-augmentor`](plugins/ai-beginner-augmentor) | Anyone brand new to AI and Claude | Beginner | 8 | 5 | 2 |
+| [`decision-coach-augmentor`](plugins/decision-coach-augmentor) | Anyone making a choice: buying, picking a service, planning (grills you, then researches with dated web sources) | Beginner | 4 | 5 | 2 |
 | [`student-augmentor`](plugins/student-augmentor) | Students (academic-integrity-aware) | Beginner | 8 | 5 | 2 |
 | [`office-augmentor`](plugins/office-augmentor) | Knowledge workers | Beginner | 8 | 5 | 2 |
 | [`ai-transition-builder`](plugins/ai-transition-builder) | Technical folks moving into building with AI | Advanced | 9 | 5 | 2 |
@@ -27,7 +28,7 @@ Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
 
 **Level** = how much tech or AI experience a pack assumes (Beginner / Intermediate / Advanced); see [levels](docs/index.md#levels).
 
-No MCP servers, hooks, executables, or API keys in any augmentor pack — every pack is pure skills, commands, and subagents.
+No MCP servers, hooks, executables, or API keys in any augmentor pack — every pack is pure skills, commands, and subagents. `decision-coach-augmentor` uses Claude Code's built-in, read-only `WebSearch` and `WebFetch` tools for research (Claude Code may ask your permission).
 
 ### Optional tool add-ons (MCP)
 Separate, opt-in plugins that run a local zero-dependency Node.js MCP server (Node 18+) and call public, key-free APIs. Install them only if you want live data; see [docs/packs/tools.md](docs/packs/tools.md).
@@ -52,6 +53,7 @@ Inside Claude Code:
 
 # 2. Install any pack: <plugin-name>@<marketplace-name>
 /plugin install ai-beginner-augmentor@augmentor-packs   # new to AI? start here
+/plugin install decision-coach-augmentor@augmentor-packs   # help deciding what to buy, pick, or plan
 /plugin install student-augmentor@augmentor-packs
 /plugin install office-augmentor@augmentor-packs
 /plugin install ai-transition-builder@augmentor-packs

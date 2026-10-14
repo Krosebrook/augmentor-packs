@@ -15,7 +15,8 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 
 | Placeholder | Meaning | Where it appears |
 |---|---|---|
-| `[CHECK: …]` | A claim or detail you must confirm | office-augmentor, creator-augmentor, ai-beginner-augmentor |
+| `[CHECK: …]` | A claim or detail you must confirm | office-augmentor, creator-augmentor, ai-beginner-augmentor, decision-coach-augmentor (single-source, conflicting, stale, or unverifiable claims) |
+| `[ASSUMED: …]` | Something the interview didn't cover, assumed so research could proceed (e.g. after "enough, go") | decision-coach-augmentor |
 | `[DATA NEEDED]` | A number or fact is needed and you didn't supply it | consultant-augmentor (ROI, scoping, surveys), designer-augmentor (briefs, contrast values), office-augmentor (doc-report-drafter), educator-augmentor (assessment-builder), trades-augmentor (quotes), job-seeker-augmentor (resume metrics, market data), creator-augmentor (pitches, benchmarks) |
 | `[TESTIMONIAL NEEDED]` | Space for real social proof. Never fabricated. | solo-founder-augmentor (landing-page-copy), creator-augmentor (sponsorship-pitch) |
 | `[CONFIRM]`, `[verify]` | Something for you to verify before use | various skills |
@@ -28,9 +29,9 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 
 ### Structural safeguards
 
-- The augmentor packs have no MCP servers, hooks, or executables, so they can't send messages or call external services. `scripts/validate.py` fails if an augmentor pack declares an MCP server.
+- The augmentor packs have no MCP servers, hooks, or executables, so they can't send messages or call external services. The one exception to "no web access" is `decision-coach-augmentor`, which uses Claude Code's built-in `WebSearch` and `WebFetch` (read-only search and page fetches, which go through Claude Code's normal permission flow) so its research is current and cited. It still has no MCP servers, hooks, or executables, and never submits forms, logs in, buys, or signs up. `scripts/validate.py` fails if an augmentor pack declares an MCP server.
 - The optional `tools-*` plugins are the only plugins that run code. Each runs one local, zero-dependency Node.js MCP stdio server that makes read-only HTTPS requests to the public APIs listed in [tool add-ons](packs/tools.md). They have no write or send capabilities, no telemetry, and no committed credentials. `GITHUB_TOKEN` is read only from your environment, and `sec_user_agent` is stored in your Claude Code settings.
-- Most agents use only `Read, Grep, Glob`. The exceptions: `ai-code-reviewer`, `formula-auditor`, `analytics-analyst`, `logic-auditor`, `script-reviewer`, and `assumption-auditor` also have `Bash` (read-only inspection, linters, and recalculation; `script-reviewer` never runs the script under review), and `practice-examiner`, `discovery-synthesizer`, and `interview-debriefer` also have `Write`, so they can save their output files.
+- Most agents use only `Read, Grep, Glob`. The exceptions: `ai-code-reviewer`, `formula-auditor`, `analytics-analyst`, `logic-auditor`, `script-reviewer`, and `assumption-auditor` also have `Bash` (read-only inspection, linters, and recalculation; `script-reviewer` never runs the script under review), and `practice-examiner`, `discovery-synthesizer`, and `interview-debriefer` also have `Write`, so they can save their output files. `source-verifier` and `devils-advocate` (decision-coach-augmentor) also have `WebSearch` and `WebFetch`, to re-check citations and look for recent problems; they can't edit files.
 
 ## Integrity rules per pack
 
@@ -40,6 +41,15 @@ These apply to every pack (see also the root [README](../README.md#design-princi
 - Stops when passwords, ID numbers, financial details, health records, or other people's private information appear, and doesn't repeat them.
 - Never claims abilities it doesn't have (sending, browsing accounts, remembering forever). Agents are read-only.
 - Not legal, medical, or financial advice.
+
+### decision-coach-augmentor
+- The person decides. It interviews, researches, and lays out trade-offs; it never buys, books, signs up, fills forms, logs in, or contacts anyone.
+- Confirms a written needs summary before researching; the person can stop the interview any time ("enough, go"), and gaps become `[ASSUMED: …]`.
+- Grounded or silent: facts come only from live `WebSearch`/`WebFetch` results with a cited URL and published or updated date. If web tools are unavailable or denied, it says so and stops instead of answering from memory.
+- Freshness rule: fast-moving topics (tech, prices, plans, rates, rules) flag sources older than 12 months and don't rely on a source older than 18 months alone; medium-speed topics flag at 24 months; prices only if seen on the research date. Important claims are cross-checked across two or more independent sources, otherwise `[CHECK: …]`.
+- Never invents prices, specs, ratings, reviews, or quotes. No affiliate bias; close calls and uncertainty are stated. Every recommendation is stamped "as of <date>".
+- Privacy reminder up front: no account numbers, passwords, ID numbers, exact addresses, or medical record details.
+- Money topics are general education, not financial advice; health and legal topics are information only and defer to professionals; emergencies get emergency or crisis resources first.
 
 ### student-augmentor
 - Never ghostwrites graded work. Essay help is coaching and feedback on *your* draft.

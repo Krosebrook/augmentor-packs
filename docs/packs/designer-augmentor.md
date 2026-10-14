@@ -2,7 +2,7 @@
 
 > Design co-pilot that sharpens your judgment instead of generating for you: brief-before-build, heuristic UX review, WCAG 2.2 accessibility checks, design-token and type/color system advice, usability test planning, generic-AI-look ("slop") detection, and motion/interaction review. Critiques and scaffolds; you design and decide.
 
-Version 1.3.0 · License MIT · Source: [`plugins/designer-augmentor`](../../plugins/designer-augmentor) · Pack README: [README](../../plugins/designer-augmentor/README.md)
+Version 1.4.0 · License MIT · Source: [`plugins/designer-augmentor`](../../plugins/designer-augmentor) · Pack README: [README](../../plugins/designer-augmentor/README.md)
 
 **Level: Intermediate** ([what levels mean](../index.md#levels)). Assumes design vocabulary; some checks read HTML/CSS/JSX files.
 

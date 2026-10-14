@@ -4,6 +4,15 @@ All notable changes to this marketplace are documented here. Format: [Keep a Cha
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-14
+### Added
+- **decision-coach-augmentor 1.4.0** (Beginner): 4 skills, 5 commands, 2 agents, 5 interview templates. Claude grills you one plain question at a time (needs, budget, priorities, deal-breakers, context; pushes back on vague answers; about 8–12 questions; "enough, go" to stop), confirms a written needs summary, then researches with Claude Code's built-in `WebSearch` and `WebFetch` (3+ independent sources, official and recent first, every source dated, freshness rule of 12/18 months for fast-moving topics, cross-checked across 2+ sources, `[CHECK: …]` for anything unverified; stops instead of answering from memory if web tools are unavailable) and builds a comparison against your criteria with top pick, runner-up, "avoid if", sources, and an "as of <date>" stamp. Skills: `intake-grill`, `grounded-research`, `recommendation-builder`, `best-practice-check`. Commands: `grill-me`, `research`, `compare`, `best-practice`, `recheck`. Agents: `source-verifier`, `devils-advocate` (read-only plus web tools). Templates: buying, service or provider, planning, money (general education only), health and legal (information only). Research skills and commands pre-approve `WebSearch WebFetch` via `allowed-tools` (tool names checked against code.claude.com on 2026-10-14).
+- New pack doc: `docs/packs/decision-coach-augmentor.md`.
+### Changed
+- **ai-beginner-augmentor:** `pack-picker` now routes "help me choose / buy / plan" requests to decision-coach-augmentor.
+- All plugins bumped to 1.4.0 (other packs have no behavior changes; the bump keeps one marketplace version).
+- Docs updated for 20 plugins: README and index tables (with Level), guardrails (integrity rules, `[ASSUMED: …]` placeholder, web-tool exception), FAQ, roadmap, installation pin, and first 10 minutes.
+
 ## [1.3.0] - 2026-10-10
 ### Added
 - **ai-beginner-augmentor 1.3.0:** 8 skills, 5 commands, 2 agents for people brand new to AI and Claude. Covers a first-week tour, asking clear questions, checking answers and spotting hallucinations, privacy basics, picking a pack, breaking messy tasks into steps, practice exercises with feedback, and a plain-words glossary. Commands: `start`, `ask-better`, `check-this`, `which-pack`, `practice`. Agents (read-only): `friendly-explainer`, `answer-checker`.

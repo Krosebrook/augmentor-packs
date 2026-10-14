@@ -2,7 +2,7 @@
 
 > Creative sparring partner for content creators: idea generation from your niche and audience, hooks and scripts in your voice, repurposing one piece across platforms, an editorial calendar, audience research from your own comments and surveys, sponsorship pitch drafts, analytics review from data you export, and a voice-consistency guide. You create and publish; it never posts.
 
-Version 1.3.0 · License MIT · Source: [`plugins/creator-augmentor`](../../plugins/creator-augmentor) · Pack README: [README](../../plugins/creator-augmentor/README.md)
+Version 1.4.0 · License MIT · Source: [`plugins/creator-augmentor`](../../plugins/creator-augmentor) · Pack README: [README](../../plugins/creator-augmentor/README.md)
 
 **Level: Beginner** ([what levels mean](../index.md#levels)). Content planning and scripts. The analytics review works best if you can export a CSV from your platform.
 

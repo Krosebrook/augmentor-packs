@@ -2,7 +2,7 @@
 
 > **🌱 New to AI? [Start here](beginners/getting-started.md).** Plain-words guides: [getting started](beginners/getting-started.md) (install Claude Code and your first pack) · [your first 10 minutes](beginners/first-10-minutes.md) · [glossary](beginners/glossary.md) · [troubleshooting](beginners/troubleshooting-for-beginners.md). Then install [`ai-beginner-augmentor`](packs/ai-beginner-augmentor.md).
 
-**Augmentor Packs** (`augmentor-packs`) is a Claude Code plugin marketplace with fourteen augmentor packs plus five optional MCP tool add-ons. They're built so you can do more than you could on your own, because they coach, check, and speed up your work. They don't do the work for you.
+**Augmentor Packs** (`augmentor-packs`) is a Claude Code plugin marketplace with fifteen augmentor packs plus five optional MCP tool add-ons. They're built so you can do more than you could on your own, because they coach, check, and speed up your work. They don't do the work for you.
 
 Owner: Kyle · License: MIT · Repository: `Krosebrook/augmentor-packs` ([GitHub](https://github.com/Krosebrook/augmentor-packs))
 
@@ -22,6 +22,7 @@ Full details: [guardrails](guardrails.md).
 | Pack | For | Level | Skills | Commands | Agents | Category |
 |---|---|---|---|---|---|---|
 | [ai-beginner-augmentor](packs/ai-beginner-augmentor.md) | Anyone brand new to AI and Claude | Beginner | 8 | 5 | 2 | education |
+| [decision-coach-augmentor](packs/decision-coach-augmentor.md) | Anyone making a choice: buying, picking a service, planning | Beginner | 4 | 5 | 2 | lifestyle |
 | [student-augmentor](packs/student-augmentor.md) | Students (academic-integrity-aware) | Beginner | 8 | 5 | 2 | education |
 | [office-augmentor](packs/office-augmentor.md) | Knowledge workers | Beginner | 8 | 5 | 2 | productivity |
 | [ai-transition-builder](packs/ai-transition-builder.md) | Technical folks moving into building with AI | Advanced | 9 | 5 | 2 | development |
@@ -36,7 +37,7 @@ Full details: [guardrails](guardrails.md).
 | [engineer-augmentor](packs/engineer-augmentor.md) | Software engineers | Advanced | 8 | 4 | 2 | development |
 | [consultant-augmentor](packs/consultant-augmentor.md) | Consultants, solutions architects, enablement leads | Intermediate | 7 | 4 | 2 | business |
 
-Every plugin is at version 1.3.0. No augmentor pack includes MCP servers, hooks, executables, or API keys. Every pack is only skills, commands, and subagents.
+Every plugin is at version 1.4.0. No augmentor pack includes MCP servers, hooks, executables, or API keys. Every pack is only skills, commands, and subagents. `decision-coach-augmentor` is the one pack that uses Claude Code's built-in, read-only `WebSearch` and `WebFetch` tools, because its job is grounded, current research.
 
 ### Levels
 

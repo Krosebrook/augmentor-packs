@@ -2,7 +2,7 @@
 
 > Communication and study co-pilot for nurses and allied health: SBAR/shift-handoff structure, plain-language patient education drafts, documentation clarity checks, drug-information question prep that always defers to official references and the pharmacist, shift and burnout planning, and CE/certification study. Not medical advice; de-identify everything; clinician judgment rules.
 
-Version 1.3.0 · License MIT · Source: [`plugins/healthcare-worker-augmentor`](../../plugins/healthcare-worker-augmentor) · Pack README: [README](../../plugins/healthcare-worker-augmentor/README.md)
+Version 1.4.0 · License MIT · Source: [`plugins/healthcare-worker-augmentor`](../../plugins/healthcare-worker-augmentor) · Pack README: [README](../../plugins/healthcare-worker-augmentor/README.md)
 
 **Level: Beginner** ([what levels mean](../index.md#levels)). No tech skills needed, but it assumes clinical training and careful de-identification habits.
 

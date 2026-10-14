@@ -45,6 +45,12 @@ Notes:
 - [ ] Test the getting-started guide with a few true beginners (different backgrounds) and fix every place they got stuck.
 - [ ] Re-check install steps against code.claude.com each release; the UI changes often.
 
+## v1.4.0: Decision coach (done)
+- [x] decision-coach-augmentor (4 skills, 5 commands, 2 agents, 5 interview templates): grill-style intake, grounded web research with a freshness rule, comparison and recommendation, best-practice check, recheck.
+- [x] pack-picker and first-10-minutes route beginners to it.
+- [ ] Dogfood real decisions (a purchase, a service plan, a trip) with web search on; log stale or uncited facts and over-long interviews. Uncited facts or answering from memory when web tools are off are release blockers.
+- [ ] Revisit the freshness thresholds after dogfooding.
+
 ## Week 2: Listing and outreach
 - [ ] Write listing copy (marketplace descriptions, repo description, short pitch). It must be accurate, with no invented stats or testimonials.
 - [ ] Record demo GIFs of one core workflow per pack.

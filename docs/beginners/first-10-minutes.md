@@ -56,6 +56,13 @@ Three habits for every session:
 2. Try `/ai-beginner-augmentor:practice privacy` to practice de-identifying.
 3. Next pack: `healthcare-worker-augmentor` (not medical advice; your facility's policy and references come first).
 
+## Deciding what to buy, pick, or plan
+
+1. Install the pack: `/plugin install decision-coach-augmentor@augmentor-packs`.
+2. Type `/decision-coach-augmentor:grill-me` and what you're deciding ("a new phone plan"). Answer one question at a time; say "enough, go" when you're ready.
+3. Check the summary it writes, then let it search the web (Claude Code may ask your permission). Every fact comes with a link and a date.
+4. You decide. It never buys or signs you up. Don't share account numbers or passwords.
+
 ## Teachers, creators, founders, designers, engineers
 
 Run `/ai-beginner-augmentor:which-pack` and tell it what you do. It will match you to `educator-augmentor`, `creator-augmentor`, `solo-founder-augmentor`, `designer-augmentor`, `engineer-augmentor`, or another pack, with its [level](../index.md#levels).

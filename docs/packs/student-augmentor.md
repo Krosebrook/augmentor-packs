@@ -2,7 +2,7 @@
 
 > Academic-integrity-aware study coach: Socratic tutoring, syllabus-to-study-plan, active recall and spaced repetition, essay coaching (never ghostwriting), source evaluation and citation checks, exam prep, level-adjusted explanations, and step-by-step math/code checking.
 
-Version 1.3.0 · License MIT · Source: [`plugins/student-augmentor`](../../plugins/student-augmentor) · Pack README: [README](../../plugins/student-augmentor/README.md)
+Version 1.4.0 · License MIT · Source: [`plugins/student-augmentor`](../../plugins/student-augmentor) · Pack README: [README](../../plugins/student-augmentor/README.md)
 
 **Level: Beginner** ([what levels mean](../index.md#levels)). Plain-language study coaching; no setup beyond installing the pack.
 

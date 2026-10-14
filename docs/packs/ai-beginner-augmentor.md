@@ -2,7 +2,7 @@
 
 > A warm, jargon-free starting point for people brand new to AI and Claude: a first-week tour, how to ask good questions, checking answers and spotting made-up facts, what not to share, picking the right augmentor pack, turning a messy task into steps, practice exercises with feedback, and a plain-words glossary. Coaches you; you stay the one thinking and deciding.
 
-Version 1.3.0 · License MIT · Source: [`plugins/ai-beginner-augmentor`](../../plugins/ai-beginner-augmentor) · Pack README: [README](../../plugins/ai-beginner-augmentor/README.md)
+Version 1.4.0 · License MIT · Source: [`plugins/ai-beginner-augmentor`](../../plugins/ai-beginner-augmentor) · Pack README: [README](../../plugins/ai-beginner-augmentor/README.md)
 
 **Level: Beginner** ([what levels mean](../index.md#levels)). Written for people who have never used AI. Start here.
 
@@ -57,7 +57,7 @@ Source: [SKILL.md](../../plugins/ai-beginner-augmentor/skills/privacy-basics/SKI
 
 ### `pack-picker`
 
-**When to use:** Use when a beginner asks which augmentor pack or plugin to install, "what else can I add?", "which pack is for me?", or describes their life or job and wants a recommendation. Asks two or three plain questions and suggests one to two packs from the augmentor-packs marketplace (student, office, educator, parent-caregiver, job-seeker, creator, trades, healthcare-worker, solo-founder, designer, engineer, consultant, ai-transition-builder, and the optional tools add-ons) with the exact install command and its level.
+**When to use:** Use when a beginner asks which augmentor pack or plugin to install, "what else can I add?", "which pack is for me?", or describes their life or job and wants a recommendation. Asks two or three plain questions and suggests one to two packs from the augmentor-packs marketplace (decision-coach, student, office, educator, parent-caregiver, job-seeker, creator, trades, healthcare-worker, solo-founder, designer, engineer, consultant, ai-transition-builder, and the optional tools add-ons) with the exact install command and its level.
 
 **Example prompt:** “I'm a nurse and a mom of two. Which pack should I try?”
 

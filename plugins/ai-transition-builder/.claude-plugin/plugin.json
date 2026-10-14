@@ -1,7 +1,7 @@
 {
   "name": "ai-transition-builder",
   "displayName": "AI Transition Builder",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Coach for people with some technical background moving into building with AI: prompt engineering, agentic workflow design, LLM API integration, RAG basics, evals, shipping a prototype, a personal learning roadmap, reviewing AI-generated code, and LLM app security. Teaches by having you build.",
   "author": {
     "name": "Kyle"

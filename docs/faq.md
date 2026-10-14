@@ -12,6 +12,15 @@ How much tech or AI experience a pack assumes, not how smart you are. Beginner p
 **Will ai-beginner-augmentor just do things for me?**
 No. It coaches: you try first, and it gives hints and feedback. It never sends messages, and it marks anything you should verify `[CHECK: …]` instead of guessing.
 
+**Will decision-coach-augmentor buy things or sign me up?**
+No. It interviews you, researches with live web search, and compares options. You make the decision and do any buying or signing up yourself. It has no partnerships or affiliate links.
+
+**Can I trust decision-coach-augmentor's prices and facts?**
+Treat them as a well-sourced starting point. Every fact has a link and a date, prices are only used if seen on the day of research, and anything thin is marked `[CHECK: …]`. Prices change, so check at checkout and run `/decision-coach-augmentor:recheck` on older recommendations. If web search isn't available, it tells you and stops rather than guessing.
+
+**Why does decision-coach-augmentor ask so many questions?**
+Most bad choices come from answering the wrong question. It asks about 8–12 short questions, one at a time. Say "enough, go" whenever you want it to move on.
+
 **Will student-augmentor write my essay?**
 No. It coaches your thesis, outline, and draft and gives feedback, but it doesn't ghostwrite graded work. Use `/student-augmentor:integrity-check` to see how a planned use fits your course's AI policy.
 
@@ -19,7 +28,7 @@ No. It coaches your thesis, outline, and draft and gives feedback, but it doesn'
 No. It suggests feedback comments against your rubric. You review them and assign the grades.
 
 **Can it send my emails or outreach?**
-No. The augmentor packs have no MCP servers, hooks, or executables, so they can't send anything. You get drafts.
+No. The augmentor packs have no MCP servers, hooks, or executables, so they can't send anything. You get drafts. (`decision-coach-augmentor` can search and read public web pages, but never submits forms or sends anything.)
 
 **What are the `tools-*` plugins?**
 Optional add-ons that each run a small local Node.js MCP server and fetch public data (package health, GitHub releases, public holidays, SEC EDGAR filings, domain DNS/RDAP/TLS). None can send messages or write anywhere. They're separate so the augmentor packs stay MCP-free; install them only if you want live data. See [tool add-ons](packs/tools.md).

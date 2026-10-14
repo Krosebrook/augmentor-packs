@@ -2,7 +2,7 @@
 
 > Knowledge-work co-pilot that keeps you in charge: inbox triage and reply drafts, meeting prep and notes-to-actions, document and report drafting, spreadsheet formulas and analysis, slide outlines, stakeholder updates, SOP writing, and polite-pushback/negotiation coaching. Drafts only; you review and send.
 
-Version 1.3.0 · License MIT · Source: [`plugins/office-augmentor`](../../plugins/office-augmentor) · Pack README: [README](../../plugins/office-augmentor/README.md)
+Version 1.4.0 · License MIT · Source: [`plugins/office-augmentor`](../../plugins/office-augmentor) · Pack README: [README](../../plugins/office-augmentor/README.md)
 
 **Level: Beginner** ([what levels mean](../index.md#levels)). Everyday office tasks; you paste text or point to a file.
 

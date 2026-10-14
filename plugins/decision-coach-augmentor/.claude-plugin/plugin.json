@@ -1,0 +1,20 @@
+{
+  "name": "decision-coach-augmentor",
+  "displayName": "Decision Coach Augmentor",
+  "version": "1.4.0",
+  "description": "Make a big choice with confidence: Claude grills you with one plain question at a time to uncover your real needs, budget, priorities, and deal-breakers, confirms a written summary, then researches current options with live web search (multiple dated, cited sources, nothing from memory) and compares them against your own criteria. You decide; it never buys, signs up, or sends anything.",
+  "author": {
+    "name": "Kyle"
+  },
+  "license": "MIT",
+  "keywords": [
+    "beginner",
+    "decision-making",
+    "buying-guide",
+    "comparison",
+    "web-research",
+    "citations",
+    "best-practices",
+    "plain-language"
+  ]
+}
