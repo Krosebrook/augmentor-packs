@@ -4,7 +4,7 @@
 
 **Augmentor Packs** (`augmentor-packs`) is a Claude Code plugin marketplace with fifteen augmentor packs plus five optional MCP tool add-ons. They're built so you can do more than you could on your own, because they coach, check, and speed up your work. They don't do the work for you.
 
-Owner: Kyle · License: MIT · Repository: `Krosebrook/augmentor-packs` ([GitHub](https://github.com/Krosebrook/augmentor-packs))
+Owner: Kyle Rosebrook · License: MIT · Repository: `Krosebrook/augmentor-packs` ([GitHub](https://github.com/Krosebrook/augmentor-packs))
 
 ## Philosophy
 

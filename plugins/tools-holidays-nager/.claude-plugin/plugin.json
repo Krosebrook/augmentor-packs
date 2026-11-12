@@ -1,10 +1,10 @@
 {
   "name": "tools-holidays-nager",
   "displayName": "Tools: Holidays & Business Days",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Optional MCP tool add-on: public holidays by country (Nager.Date) and business-day math (is it a working day, add N business days, count business days between dates). No API key.",
   "author": {
-    "name": "Kyle"
+    "name": "Kyle Rosebrook"
   },
   "license": "MIT",
   "keywords": [

@@ -2,7 +2,7 @@
 
 Fifteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
 
-Marketplace name: **`augmentor-packs`** · Owner: Kyle · License: MIT
+Marketplace name: **`augmentor-packs`** · Owner: Kyle Rosebrook · License: MIT
 
 > **🌱 New to AI? [Start here](docs/beginners/getting-started.md)** — install Claude Code and your first pack step by step, then try [`ai-beginner-augmentor`](plugins/ai-beginner-augmentor). Also: [first 10 minutes](docs/beginners/first-10-minutes.md) · [glossary](docs/beginners/glossary.md) · [troubleshooting](docs/beginners/troubleshooting-for-beginners.md).
 
@@ -46,9 +46,7 @@ Separate, opt-in plugins that run a local zero-dependency Node.js MCP server (No
 Inside Claude Code:
 
 ```
-# 1. Add the marketplace — a local path to this directory...
-/plugin marketplace add /path/to/claude-packs
-#    ...or, once the repo is hosted on GitHub:
+# 1. Add the marketplace
 /plugin marketplace add Krosebrook/augmentor-packs
 
 # 2. Install any pack: <plugin-name>@<marketplace-name>
@@ -64,9 +62,16 @@ Inside Claude Code:
 /plugin install job-seeker-augmentor@augmentor-packs
 /plugin install creator-augmentor@augmentor-packs
 /plugin install parent-caregiver-augmentor@augmentor-packs
+/plugin install designer-augmentor@augmentor-packs
+/plugin install engineer-augmentor@augmentor-packs
+/plugin install consultant-augmentor@augmentor-packs
 
 # Optional tool add-ons (run local MCP servers)
-/plugin install tools-package-health@augmentor-packs   # etc.
+/plugin install tools-package-health@augmentor-packs
+/plugin install tools-github-releases@augmentor-packs
+/plugin install tools-holidays-nager@augmentor-packs
+/plugin install tools-sec-edgar@augmentor-packs
+/plugin install tools-domain-checks@augmentor-packs
 ```
 
 From a shell, the equivalent CLI commands are `claude plugin marketplace add <path-or-owner/repo>` and `claude plugin install <name>@augmentor-packs`. Run `/reload-plugins` (or start a new session) after installing.
@@ -79,7 +84,7 @@ From a shell, the equivalent CLI commands are `claude plugin marketplace add <pa
 ## Layout
 
 ```
-claude-packs/
+augmentor-packs/
 ├── .claude-plugin/marketplace.json   # marketplace catalog
 ├── plugins/
 │   └── <plugin>/

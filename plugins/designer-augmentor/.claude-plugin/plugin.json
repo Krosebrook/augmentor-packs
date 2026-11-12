@@ -1,10 +1,10 @@
 {
   "name": "designer-augmentor",
   "displayName": "Designer Augmentor",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Design co-pilot that sharpens your judgment instead of generating for you: brief-before-build, heuristic UX review, WCAG 2.2 accessibility checks, design-token and type/color system advice, usability test planning, generic-AI-look (\"slop\") detection, and motion/interaction review. Critiques and scaffolds; you design and decide.",
   "author": {
-    "name": "Kyle"
+    "name": "Kyle Rosebrook"
   },
   "license": "MIT",
   "keywords": [

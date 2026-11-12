@@ -1,10 +1,10 @@
 {
   "name": "tools-github-releases",
   "displayName": "Tools: GitHub Releases",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Optional MCP tool add-on: list GitHub releases, read the latest release notes, and build a changelog between two tags via api.github.com. No key required; an optional GITHUB_TOKEN from your environment raises rate limits.",
   "author": {
-    "name": "Kyle"
+    "name": "Kyle Rosebrook"
   },
   "license": "MIT",
   "keywords": [

@@ -4,6 +4,12 @@ All notable changes to this marketplace are documented here. Format: [Keep a Cha
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-11-12
+### Changed
+- Author display name set to Kyle Rosebrook in the marketplace owner and every plugin manifest.
+- README install section now uses `/plugin marketplace add Krosebrook/augmentor-packs` (removed stale local-path / "once the repo is hosted" wording) and lists all 20 plugins, including designer, engineer, consultant, and the five tool add-ons.
+- All plugins bumped to 1.4.1 (no behavior changes; the bump keeps one marketplace version).
+
 ## [1.4.0] - 2026-10-14
 ### Added
 - **decision-coach-augmentor 1.4.0** (Beginner): 4 skills, 5 commands, 2 agents, 5 interview templates. Claude grills you one plain question at a time (needs, budget, priorities, deal-breakers, context; pushes back on vague answers; about 8–12 questions; "enough, go" to stop), confirms a written needs summary, then researches with Claude Code's built-in `WebSearch` and `WebFetch` (3+ independent sources, official and recent first, every source dated, freshness rule of 12/18 months for fast-moving topics, cross-checked across 2+ sources, `[CHECK: …]` for anything unverified; stops instead of answering from memory if web tools are unavailable) and builds a comparison against your criteria with top pick, runner-up, "avoid if", sources, and an "as of <date>" stamp. Skills: `intake-grill`, `grounded-research`, `recommendation-builder`, `best-practice-check`. Commands: `grill-me`, `research`, `compare`, `best-practice`, `recheck`. Agents: `source-verifier`, `devils-advocate` (read-only plus web tools). Templates: buying, service or provider, planning, money (general education only), health and legal (information only). Research skills and commands pre-approve `WebSearch WebFetch` via `allowed-tools` (tool names checked against code.claude.com on 2026-10-14).

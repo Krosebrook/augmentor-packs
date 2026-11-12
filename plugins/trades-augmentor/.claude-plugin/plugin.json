@@ -1,10 +1,10 @@
 {
   "name": "trades-augmentor",
   "displayName": "Trades Augmentor",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Back-office and study co-pilot for electricians, plumbers, HVAC techs, and contractors: job scoping checklists, quote/estimate builder from your own rates, customer communication drafts, code-lookup question prep that defers to the adopted code and AHJ, job safety checklists, invoicing, scheduling, and licensing exam study. Your numbers, your license, your call.",
   "author": {
-    "name": "Kyle"
+    "name": "Kyle Rosebrook"
   },
   "license": "MIT",
   "keywords": [
