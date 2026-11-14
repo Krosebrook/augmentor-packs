@@ -1,4 +1,7 @@
-# Augmentor Packs — a Claude Code plugin marketplace
+# Loxihart Ballast · Cadence Packs
+
+> **Loxihart Suite:** `Loxihart Ballast` (`loxihart-ballast`) · **Architectural Role:** Cadence Packs · **Lexicon:** *Ballast*
+> **Purpose:** Claude Code plugin marketplace of coaching, verification, and workflow acceleration packs.
 
 Fifteen Claude Code augmentor packs (plus five optional tool add-ons) built on one idea: **augment the human, don't replace them.** Every pack coaches, scaffolds, checks, and accelerates *your* work — it asks the questions a good mentor would, catches the errors a good reviewer would, and drafts the boring parts for you to own. It doesn't ghostwrite graded work, send messages on your behalf, grade your students, or invent facts and data.
 
