@@ -1,0 +1,19 @@
+{
+  "name": "Loxihart Ballast (Augmentor Packs)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "python3 -m pip install pyyaml && python3 scripts/validate.py && python3 scripts/check_links.py",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.vscode-pull-request-github",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}
